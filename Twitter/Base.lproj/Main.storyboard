@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="-530.39999999999998" y="148.87556221889056"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Home-->
         <scene sceneID="P5L-br-UJL">
             <objects>
-                <tableViewController id="djm-XV-6L0" sceneMemberID="viewController">
+                <tableViewController id="djm-XV-6L0" customClass="HomeTableViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="alG-x5-k7z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,14 @@
                             <outlet property="delegate" destination="djm-XV-6L0" id="TcN-g2-nnf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="38S-zs-Pzi"/>
+                    <navigationItem key="navigationItem" title="Home" id="38S-zs-Pzi">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="LMj-E2-Hry">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="onLogout:" destination="djm-XV-6L0" id="j48-7Z-cje"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vRu-DZ-5h4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

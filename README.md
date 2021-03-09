@@ -28,3 +28,7 @@ Here's a walkthrough of implemented user stories:
 Bonus Features walkthrough:
 
 <img src=http://g.recordit.co/FjNrD5hwLI.gif title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Final Features walkthrough:
+
+<img src=http://g.recordit.co/ifftfWqQ2h.gif title='Video Walkthrough' width='' alt='Video Walkthrough' />

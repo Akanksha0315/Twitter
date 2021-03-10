@@ -37,6 +37,4 @@ class TweetViewController: UIViewController {
             
         }
     }
-    
-
 }
